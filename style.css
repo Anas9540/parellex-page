@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;0,900;1,400&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: larger;
+}   
+.img1{
+    background-image: url(images/image3.png);
+   min-height: 600px;
+}
+.img2{
+    background-image: url(images/im.jpg);
+   min-height: 400px;
+}
+.img3{
+    background-image: url(images/image3.png);
+   min-height: 400px;
+}
+
+
+.img1,.img2,.img3
+{
+    position: relative;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+ 
+}
+.bg{
+
+font-size: 3rem;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 5px;
+border-color: rgb(7, 0, 0);
+color: rgb(73, 226, 12);
+text-transform: uppercase;
+}
+.section-light{
+    background-color: rgb(22, 19, 19);
+    padding: 50px 80px;
+    text-align: center;
+    color: rgb(226, 217, 217);
+    text-transform: uppercase;
+    font-size: medium;
+}
+h2{
+    position: center;
+}
+.bg1{
+    background: transparent;
+    padding: 20px;
+border-radius: 10px;
+box-shadow: 5px;
+border-color: rgb(17, 16, 16);
+border-radius: 20px;
+color: rgb(223, 211, 211);
+
+    
+}
+.section-dark{
+    background-color: rgb(8, 8, 8);
+    padding: 50px 80px;
+    text-align: center;
+    color: rgb(99, 221, 129);
+    text-transform: uppercase;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(238, 235, 235);
+    
+}
+a:hover{
+    
+    color: rgb(241, 11, 11);
+}
+@media (max-width:768px) {
+
+    .p{
+        font-size: 10px;
+    }
+    
+}
